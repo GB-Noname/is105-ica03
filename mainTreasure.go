@@ -18,7 +18,7 @@ func main() {
 	//fmt.Printf("%q", byteSlice)
 	s := fmt.Sprintln(byteSlice)
 	fmt.Println(s)
-	s := strings.Trim(s, "\\x")
+	strings.Trim(s, "\\x")
 	fmt.Printf("%c", 120)
 
 	//bs, _ := hex.DecodeString(string(byteSlice))
